@@ -1,7 +1,38 @@
-h1 {
-    color: blue;
-    font-size: 24px;
-}
-p {
+#title {
+    text-decoration: underline;
     font-weight: bold;
+}
+
+/* 클래스선택자*/
+.description {
+    color: grey;
+}
+
+/* 태그선택자*/
+p {
+    font-style: italic;
+}
+
+/* 자식선택자*/
+div p {
+    color: red;
+}
+
+squar {
+    display: block;
+    font-style: normal;
+}
+
+div squar{
+     /* 두께가5px인 파란색실선*/
+ border-style: solid;
+ border-width: 5px;
+ border-color: blue;
+ border-radius: 20px; /* 10%*/
+ 
+  /* 위:10px, 우:20px, 아래:30px, 좌:40px */
+  padding: 10px 10px 10px 10px;
+  background-color: red;    /*얘는 컨텐츠의 백그라운드임 인 줄 알았는데 패딩도 빨간색이됨*/
+  /* 위:10px, 우:20px, 아래:30px, 좌:40px */
+margin: 200px 10px 200px 10px;
 }
