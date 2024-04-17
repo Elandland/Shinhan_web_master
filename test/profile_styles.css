@@ -1,0 +1,24 @@
+.nav_items div{     /*nav_items 안에 있는 div들*/
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.logo{
+    display: inline;
+    margin-right: 306px;
+    margin-left: 160px;
+}
+
+.nav_items{
+    display: inline;
+}
+
+.link{
+    display: inline-flex;
+    margin-right: 160px;
+}
+
+.link div{
+    display: inline-block;
+    margin-right: 20px;
+}
