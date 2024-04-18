@@ -35,12 +35,14 @@
     left: 599px;
     text-align: center;
     margin-top: 100px;
+    
 }
 
 .text_name{
     background : linear-gradient(120deg,#13b0f5 -2.06%,#e35ef7 100%);
     background-clip: text;
     color : transparent;
+    font-family: 'TTLaundryGothicB';
 }
 
 .text_title{
@@ -136,6 +138,11 @@
     background-position: center;
     background-size: cover;
   }
+  .project-thumbnail:hover{
+    transition: all 1s;
+    transform: rotate(3600deg);
+  }
+
   .project-content {
     padding: 30px;
     /* 세로 간격(gap)을 일정하게 주기 위해 flex 적용 */
@@ -242,3 +249,9 @@ footer .footer-links {
     color: transparent; /* 글자 색을 투명하게 */
 }
 
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
