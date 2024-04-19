@@ -53,7 +53,7 @@ a {
     line-height: 0;
     text-align: center;
     color: #42446E;
-
+    font-family: 'TTLaundryGothicB';
 }
 
 .text_title_sub{
@@ -63,6 +63,7 @@ a {
     text-align: center;    
     color: #42446E;
     margin-top: 50px;
+    font-family: 'TTLaundryGothicB';
 }
 .box_introduce{
     display: flex;
@@ -83,6 +84,7 @@ a {
     color: #42446E;
     
     margin-right: 180px;
+    font-family: 'TTLaundryGothicB';
 }
 
 .profile_image{
@@ -162,11 +164,13 @@ a {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    font-family: 'TTLaundryGothicB';
   }
   .project-content h4 {
     color: #42446e;
     font-size: 24px;
     font-weight: 700;
+    font-family: 'TTLaundryGothicB';
   }
   .project-link {
     display: flex;
